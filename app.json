@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Candidate's Test",
+    "slug": "candidates-test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./resources/assets/images/icon.png",
+    "scheme": "candidates",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vyatkait.candidates",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./resources/assets/images/android-icon-foreground.png",
+        "backgroundImage": "./resources/assets/images/android-icon-background.png",
+        "monochromeImage": "./resources/assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.vyatkait.candidates",
+      "versionCode": 1
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./resources/assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./resources/assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "image": "./resources/assets/images/splash-icon.png",
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "owner": "vyatka-it"
+  }
+}
