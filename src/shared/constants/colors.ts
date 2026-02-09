@@ -53,7 +53,23 @@ const Colors: IColorsThemes = {
         disabled: '#333333',
       },
     },
+    radioGroup: {
+      background: '#111426',
+      activeBackground: '#272B3E',
+      text: '#FFFFFF',
+      activeText: '#FFFFFF',
+      badgeBackground: '#272B3E',
+      badgeText: '#FFFFFF',
+    },
+    switch: {
+      backgroundActive: '#99C817',
+      backgroundInactive: '#272B3E',
+      knob: '#FFFFFF',
+      text: '#000000',
+      border: 'rgba(0, 0, 0, 0.12)',
+    },
   },
+
   themeDark: {
     background: '#060814',
     wrapper: '#1b1b1b',
@@ -100,6 +116,21 @@ const Colors: IColorsThemes = {
         invalid: '#FFFFFF',
         disabled: '#FFFFFF4D',
       },
+    },
+    radioGroup: {
+      background: '#111426',
+      activeBackground: '#272B3E',
+      text: '#FFFFFF',
+      activeText: '#FFFFFF',
+      badgeBackground: '#272B3E',
+      badgeText: '#FFFFFF',
+    },
+    switch: {
+      backgroundActive: '#99C817',
+      backgroundInactive: '#272B3E',
+      knob: '#FFFFFF',
+      text: '#FFFFFF',
+      border: 'rgba(255, 255, 255, 0.12)',
     },
   },
 };

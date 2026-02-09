@@ -70,4 +70,13 @@ export const typography: ITypography = {
     letterSpacing: 0.28,
     textTransform: 'uppercase',
   },
+
+  // Switch
+  switchMedium: {
+    fontFamily: 'InterMedium',
+    fontWeight: 500,
+    fontSize: 16,
+    lineHeight: 24,
+    letterSpacing: -0.48, // -0.03em для 16px = -0.48
+  },
 };

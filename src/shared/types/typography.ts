@@ -18,4 +18,6 @@ export interface ITypography {
 
   // Button
   buttonMain: TextStyle;
+
+  switchMedium: TextStyle;
 }

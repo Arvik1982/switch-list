@@ -26,4 +26,19 @@ export interface IColors {
     background: Record<ITextInputState, ColorValue>;
     text: Record<ITextInputState, ColorValue>;
   };
+  radioGroup: {
+    background: ColorValue;
+    activeBackground: ColorValue;
+    text: ColorValue;
+    activeText: ColorValue;
+    badgeBackground: ColorValue;
+    badgeText: ColorValue;
+  };
+  switch: {
+    backgroundActive: ColorValue;
+    backgroundInactive: ColorValue;
+    knob: ColorValue;
+    text: ColorValue;
+    border: ColorValue;
+  };
 }
