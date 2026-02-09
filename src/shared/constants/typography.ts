@@ -77,6 +77,6 @@ export const typography: ITypography = {
     fontWeight: 500,
     fontSize: 16,
     lineHeight: 24,
-    letterSpacing: -0.48, // -0.03em для 16px = -0.48
+    letterSpacing: -0.48,
   },
 };
