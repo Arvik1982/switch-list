@@ -1,4 +1,4 @@
-# SimpleSwitchList
+# Simple Switch List
 
 ## Сборка
 
