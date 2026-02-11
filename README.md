@@ -1,4 +1,4 @@
-# Simple Switch List
+# Simple Switch List (Example)
 
 ## Сборка
 
